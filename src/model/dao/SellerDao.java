@@ -9,7 +9,7 @@ import model.entities.Seller;
 		void insert(Seller obj);
 		void update(Seller obj);
 		void deleteById(Integer obj);
-		Seller FindById(Integer id);
+		Seller findById(Integer id);
 		List<Seller> findAll ();
 		
 }
